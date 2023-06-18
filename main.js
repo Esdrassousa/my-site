@@ -11,9 +11,11 @@ window.addEventListener("click", (event) => {
 });
 
 function togleMenu(){
-  console.log("oi")
+  
   const nav = document.getElementById('navegacao');
+  const headind = document.getElementById('heading-aux');
   nav.classList.toggle('active')
+  headind.classList.toggle('active-heading')
 
 }
 
