@@ -10,36 +10,9 @@
 </head>
 <body>
 
+    <?php include 'includes/menu.php'?>
     
-    <header class="header">
 
-
-        <a class="img"> <img src="img/log.png"/> </a>
-
-
-        <nav id="navegacao">
-
-            <button id="btn-mobile" class = "btn-mobile">MENU
-
-                <span id="hamburger"></span>
-            </button>
-        
-        
-        
-
-        <ul class="menu">
-    
-            <li><a href="#">SOLAR</a></li>
-            <li><a href="#">SPDA</a></li>
-            <li><a href="#">SUBESTAÇÃO</a></li>
-            <li><a href="#">LAUDO</a></li>
-            
-            
-        
-        </ul>
-
-    </nav>
-    </header>
 
     <div id="heading-aux"> 
     <div class="heading">
@@ -93,7 +66,7 @@
 
 
     
-    
+
 
 </body>
 </html>
