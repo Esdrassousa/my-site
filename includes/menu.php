@@ -27,11 +27,9 @@
     
 
     <ul class="menu">
-        <li class="<?php echo ($_SERVER['PHP_SELF'] == "/includes/solar.php" ? "active" : "");?>">
-            <a href="includes/solar.php">Start</a>
-            </li>
-        <li><a href="includes/solar.php">SOLAR</a></li>
-        <li><a href="includes/SPDA.php">SPDA</a></li>
+        
+        <li><a href="solar.php">SOLAR</a></li>
+        <li><a href="SPDA.php">SPDA</a></li>
         <li><a href="#">SUBESTAÇÃO</a></li>
         <li><a href="#">LAUDO</a></li>
         
