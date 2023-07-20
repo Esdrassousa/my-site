@@ -27,9 +27,9 @@
     
 
     <ul class="menu">
-        
-        <li><a href="solar.php">SOLAR</a></li>
-        <li><a href="SPDA.php">SPDA</a></li>
+        <
+        <li><a href="includes/solar.php">SOLAR</a></li>
+        <li><a href="includes/SPDA.php">SPDA</a></li>
         <li><a href="#">SUBESTAÇÃO</a></li>
         <li><a href="#">LAUDO</a></li>
         
