@@ -10,10 +10,14 @@
 </head>
 <body>
 
-    <?php include 'includes/menu.php'?>
     
+    <?php
 
-
+        echo dirname(__FILE__);
+        include_once   "includes/menu.php";
+        ?>
+   
+    
     <div id="heading-aux"> 
     <div class="heading">
 
@@ -44,7 +48,7 @@
 
     </div>
 
-
+    
     <div class="entre-cont">
 
         <div class="email">

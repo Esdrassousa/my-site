@@ -11,10 +11,10 @@
 
 
 <header class="header">
-
-
-    <a class="img"> <img src="img/log.png"/> </a>
-
+    
+    <a class="img"> <img src="http://e2ssolucoes.com/img/log.png"/> </a>
+    <!-- http://localhost/dashboard/MY_SITE -->
+    <!-- http://e2ssolucoes.com/ -->
 
     <nav id="navegacao">
 
@@ -27,11 +27,13 @@
     
 
     <ul class="menu">
-
-        <li><a href="SPDA.php">SOLAR</a></li>
-        <li><a href="SPDA.php">SPDA</a></li>
-        <li><a href="../SPDA.php">SUBESTAÇÃO</a></li>
-        <li><a href="../SPDA.php">LAUDO</a></li>
+        <li class="<?php echo ($_SERVER['PHP_SELF'] == "/includes/solar.php" ? "active" : "");?>">
+            <a href="includes/solar.php">Start</a>
+            </li>
+        <li><a href="includes/solar.php">SOLAR</a></li>
+        <li><a href="includes/SPDA.php">SPDA</a></li>
+        <li><a href="#">SUBESTAÇÃO</a></li>
+        <li><a href="#">LAUDO</a></li>
         
         
     
