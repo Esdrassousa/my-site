@@ -8,6 +8,11 @@
     <script src="../main.js"></script>
 </head>
 <body>
-    <?php include 'menu.php'?>
+    
+<?php
+
+
+include_once  "./menu.php";
+?>
 </body>
 </html>

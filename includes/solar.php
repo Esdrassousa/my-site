@@ -12,7 +12,7 @@
 
 <?php
 
-echo dirname(__FILE__);
+
 include_once  "./menu.php";
 ?>
    
