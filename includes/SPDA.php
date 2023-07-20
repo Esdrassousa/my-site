@@ -12,7 +12,7 @@
 <?php
 
 
-include_once  "./menu.php";
+include  "menu.php";
 ?>
 </body>
 </html>
