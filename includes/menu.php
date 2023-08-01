@@ -16,7 +16,7 @@
 
 <header class="header">
     
-    <a class="img"> <img src="img/log.png"/> </a>
+    <a class="img"> <img src="http://e2ssolucoes.com/img/log.png"/> </a>
     <!-- http://localhost/dashboard/MY_SITE -->
     <!-- http://e2ssolucoes.com/ -->
 
