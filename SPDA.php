@@ -10,9 +10,9 @@
 <body>
     
 <?php
-
-
-include  "menu.php";
+// include_once   dirname(__FILE__) . "./menu.php";
+include   "includes/menu.php"
+// include  "menu.php";
 ?>
 </body>
 </html>

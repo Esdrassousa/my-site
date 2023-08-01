@@ -7,12 +7,16 @@
     <link rel="stylesheet" type="text/css" href="style-menu.css">
 </head>
 <body>
-    
+  <?php
+  
+ 
+  
+  ?>  
 
 
 <header class="header">
     
-    <a class="img"> <img src="http://e2ssolucoes.com/img/log.png"/> </a>
+    <a class="img"> <img src="img/log.png"/> </a>
     <!-- http://localhost/dashboard/MY_SITE -->
     <!-- http://e2ssolucoes.com/ -->
 
@@ -25,18 +29,18 @@
     
     
     
-
+      
     <ul class="menu">
-        <
-        <li><a href="includes/solar.php">SOLAR</a></li>
-        <li><a href="includes/SPDA.php">SPDA</a></li>
-        <li><a href="#">SUBESTAÇÃO</a></li>
+        <li><a href= 'index.php'>HOME</a></li>
+        <li><a href= 'solar.php'>SOLAR</a></li>
+        <li><a href='SPDA.php'>SPDA</a></li>
+        <li><a href="subestacao.php">SUBESTAÇÃO</a></li>
         <li><a href="#">LAUDO</a></li>
         
-        
+         
     
     </ul>
-
+   
 </nav>
 </header>
 

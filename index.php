@@ -13,11 +13,15 @@
     
     <?php
 
-        
-        include_once   "includes/menu.php";
+use function PHPSTORM_META\elementType;
+        // echo dirname(__FILE__);
+        // echo $_SERVER['DOCUMENT_ROOT'];
+        // include("includes"."/menu.php");
+        include   "includes/menu.php";
         ?>
    
-    
+   
+
     <div id="heading-aux"> 
     <div class="heading">
 
