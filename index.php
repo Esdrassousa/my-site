@@ -7,6 +7,7 @@
     <title>Document</title>
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
 
@@ -53,12 +54,14 @@ use function PHPSTORM_META\elementType;
     </div>
 
     
+    
     <div class="entre-cont">
 
         <div class="email">
             <a class="img-email"><img src="img/o-email.png"></a>
             <a href="e2ssolucoes@gmail.com">e2ssolucoes@gmail.com</a>
         </div>
+        
 
         <div class="whatss">
             <a class="img-whatss"><img src="img/whatsapp.png"></a>
@@ -68,6 +71,7 @@ use function PHPSTORM_META\elementType;
         <div class="insta">
             <a class="img-insta"><img src="img/instagram.png"></a>
             <a href="@E2S.SOLUCOES">Instagram</a>
+            
         </div>
 
     </div>

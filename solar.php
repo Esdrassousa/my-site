@@ -44,6 +44,27 @@ include   "includes/menu.php"
         <a class="img_03"><img src="solar_img/03.jpg"></a>
     </div>
 
+    <div class="entre-cont">
+
+        <div class="email">
+            <a class="img-email"><img src="img/o-email.png"></a>
+            <a href="e2ssolucoes@gmail.com">e2ssolucoes@gmail.com</a>
+        </div>
+
+        <div class="whatss">
+            <a class="img-whatss"><img src="img/whatsapp.png"></a>
+            <a href="https://wa.me/5585981764642">Whatsapp</a>
+        </div>
+
+        <div class="insta">
+            <a class="img-insta"><img src="img/instagram.png"></a>
+            <a href="@E2S.SOLUCOES">Instagram</a>
+            
+        </div>
+
+        </div>
+
+
     
 </body>
 </html>
