@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color:   rgb(139, 193, 221);
+    background-color:   rgb(37, 127, 172);
 }
 
 ul{
@@ -76,7 +76,10 @@ text-shadow:0px 0px 5px #fff;
     
 }
 
+
+
 .heading{
+    
     display: flex;
     margin-top: 4vh;
     padding: 4vh;
@@ -85,83 +88,149 @@ text-shadow:0px 0px 5px #fff;
        
 }
 
-
-.quem-somos{
-
-    margin-right: 4vw;
-}
-
-.quem-somos :first-child{
-    
-    text-align: center;
-   
-    
-}
-
-.quem-somos  p {
-    font-size: 1.1rem;
-    text-align: justify;
-    
-    
-}
-
 .heading img{
     max-width:80vh;
     max-height:80vh;
+    filter: contrast(100%);
+    filter: saturate(300%);
+    
 }
+
+.inicio{
+
+    margin-top: 10vh;
+    margin-left: 15vw;
+   
+}
+.inicio :first-child{
+
+    color: #9cdbf0;
+}
+
+.inicio h2{
+    margin-top: 1vh;
+    font-size: 2rem;
+    color: #e1d881;
+}
+
+.objetivo{
+    max-width: 120vw;
+    margin-top: 5vh;
+    background-color: rgb(38, 124, 167);
+    margin-left: 15vw;
+    padding-right: 4vw;
+}
+
+.objetivo h1{
+    font-weight: 400;
+    color: #e1d881;
+    font-size: 2rem;
+}
+
+.objetivo span{
+    font-weight: 800;
+    font-size: 2rem;
+    color: #e1d881;
+}
+
+
+
 
 
 .entre-cont{
+    background-color: #fefdfd;
     display: flex;
-    padding: 4vh;
+    margin-top: 10vh;
 }
 
-
-.email a{
-
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
-    font-size: 1rem;
+.email{
     
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .email img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1em;
     max-width:8vh;
     max-height:8vh;
-    margin-left: 6vw;
-} 
 
-.whatss a{
+}
 
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
+.email a{
+
+
+    display: flex;
+    margin-top: 1vh; 
     font-size: 1rem;
+     
+}
+
+.whatss{
     
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .whatss img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
     max-width:8vh;
     max-height:8vh;
-    margin-left: 0.5vw;
+
+}
+
+.whatss a{
+
+
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+     
 }
 
 
-.insta a{
 
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
-    font-size: 1rem;
+
+
+.insta{
     
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .insta img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
     max-width:8vh;
     max-height:8vh;
-    margin-left: 0.5vw;
+
 }
+
+.insta a{
+
+
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+     
+}
+
 
 
 .btn-mobile{
@@ -246,17 +315,49 @@ text-shadow:0px 0px 5px #fff;
     .heading{
         flex-direction: column;
         transition: 0.6s;
-    }
-
-    #heading-aux.active-heading .heading{
         
-        margin-top: 30vh;
-
     }
+
+     .inicio-objetivo{
+        align-items: center;
+    }
+
+    .objetivo{
+        
+        margin-left: 4vw;
+        padding: 0%;
+    }
+
+     
+    .inicio{
+        
+        margin-left: 4vw;
+    } 
+   
+    .inicio h2{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+   
+
+    .objetivo h1{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .objetivo h1 span{
+        font-size: 1rem;
+    } 
+
+
+ 
 
     .heading img{
         max-width:96%;
         margin-top: 3vh;
+        margin-left: 4vw;
+     
         
     }
 
@@ -264,32 +365,14 @@ text-shadow:0px 0px 5px #fff;
     .entre-cont{
         
        flex-direction: column;
-        text-align: center;
+       align-items: center;
+
 
     }
 
     .entre-cont div{
         margin-top: 4vh;
     }
-
-
-    .email img{
-        
-        margin-left: 1.5vw;
-    } 
-
-    .whatss img{
-        
-        margin-left: 1.5vw;
-    } 
-    .insta img{
-        
-        margin-left: 1.5vw;
-    } 
-
-
-
-    
 
 
 }

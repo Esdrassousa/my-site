@@ -1,0 +1,112 @@
+.entre-cont{
+    background-color: #fefdfd;
+    display: flex;
+    margin-top: 10vh;
+}
+
+.email{
+    
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.email img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1em;
+    max-width:8vh;
+    max-height:8vh;
+
+}
+
+.email a{
+
+
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+     
+}
+
+.whatss{
+    
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.whatss img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+    max-width:8vh;
+    max-height:8vh;
+
+}
+
+.whatss a{
+
+
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+     
+}
+
+
+
+
+
+.insta{
+    
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.insta img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+    max-width:8vh;
+    max-height:8vh;
+
+}
+
+.insta a{
+
+
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+     
+}
+
+
+@media(max-width: 600px){
+   
+
+    .entre-cont{
+        
+       flex-direction: column;
+       align-items: center;
+
+
+    }
+
+    .entre-cont div{
+        margin-top: 4vh;
+    }
+
+
+}

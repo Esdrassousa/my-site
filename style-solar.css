@@ -128,60 +128,99 @@ text-shadow:0px 0px 5px #fff;
     max-height:80vh;
 }
 
-
 .entre-cont{
+    background-color: #fefdfd;
     display: flex;
-    padding: 4vh;
+    margin-top: 10vh;
 }
 
-
-.email a{
-
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
-    font-size: 1rem;
+.email{
     
+ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .email img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1em;
     max-width:8vh;
     max-height:8vh;
-    margin-left: 6vw;
-} 
 
-.whatss a{
+}
 
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
+.email a{
+
+
+    display: flex;
+    margin-top: 1vh; 
     font-size: 1rem;
+     
+}
+
+.whatss{
     
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .whatss img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
     max-width:8vh;
     max-height:8vh;
-    margin-left: 0.5vw;
+
+}
+
+.whatss a{
+
+
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+     
 }
 
 
-.insta a{
 
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
-    font-size: 1rem;
+
+
+.insta{
     
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .insta img{
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
     max-width:8vh;
     max-height:8vh;
-    margin-left: 0.5vw;
+
 }
 
+.insta a{
 
+
+    display: flex;
+    margin-top: 1vh; 
+    font-size: 1rem;
+     
+}
 .btn-mobile{
     display: none;
 }
@@ -266,13 +305,30 @@ text-shadow:0px 0px 5px #fff;
         transition: 0.6s;
     }
 
+    .heading{
+        flex-direction: column;
+        transition: 0.6s;
+    }
+
+    #heading-aux.active-heading .heading{
+        
+        margin-top: 30vh;
+
+    }
+
+    .heading img{
+        max-width:96%;
+        margin-top: 3vh;
+        
+    }
+
     .img_solar{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 20px;
     }
 
-    .entre-cont{
+     .entre-cont{
         flex-direction: column; 
         align-items: center; 
         max-width:100%;
@@ -281,19 +337,6 @@ text-shadow:0px 0px 5px #fff;
 
     .entre-cont div{
         margin-top: 4vh;
-    }   
-    .email img{
-        
-        margin-left: 12vw;
-    } 
-
-    .whatss img{
-        
-        margin-left: 1.5vw;
-    } 
-    .insta img{
-        
-        margin-left: 1.5vw;
     } 
 
 
