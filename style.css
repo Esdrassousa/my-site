@@ -1,5 +1,19 @@
 
+:root{
+    --gradient: linear-gradient(
+        to top left,
+        rgb(170, 211, 233),
+        rgb(64, 143, 183)
+    );
 
+    --font-para-bloco2-h1:(
+        font-size: 1rem
+    );
+
+    --font-para-bloco2-a:(
+        font-size: 0.6rem
+    )
+}
 
 *{
 
@@ -10,7 +24,10 @@
 }
 
 body{
-    background-color:   rgb(37, 127, 172);
+    background-image: var(--gradient);
+    /* background-image: url(img/background.jpg); */
+    opacity: 110%;
+
 }
 
 ul{
@@ -79,11 +96,11 @@ text-shadow:0px 0px 5px #fff;
 
 
 .heading{
-    
+    /* background-color: #333; */
     display: flex;
-    margin-top: 4vh;
+    margin-top: 2vh;
     padding: 4vh;
-    width: 100vw;
+    width: 100%;
     justify-content: space-around;
        
 }
@@ -99,12 +116,13 @@ text-shadow:0px 0px 5px #fff;
 .inicio{
 
     margin-top: 10vh;
-    margin-left: 15vw;
+    margin-left: 5vw;
    
 }
 .inicio :first-child{
 
-    color: #9cdbf0;
+    color:  rgb(170, 211, 233);
+    font-size: 3rem;
 }
 
 .inicio h2{
@@ -114,10 +132,10 @@ text-shadow:0px 0px 5px #fff;
 }
 
 .objetivo{
-    max-width: 120vw;
+    max-width: 96%;
     margin-top: 5vh;
-    background-color: rgb(38, 124, 167);
-    margin-left: 15vw;
+    background-color: #6b7fd0;
+    margin-left: 5vw;
     padding-right: 4vw;
 }
 
@@ -133,23 +151,120 @@ text-shadow:0px 0px 5px #fff;
     color: #e1d881;
 }
 
+.whatss-INICIO{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.whatss-INICIO a{
+    color: #9cdbf0;
+    font-size: 2rem;
+    padding: 4vh;
+    background-color: #444443;
+    margin-top: 4vh;
+    border-radius: 10px;
+}
+
+.whatss-INICIO a:hover{
+   
+    background:#333;
+    color:rgb(19, 93, 129);
+    -moz-box-shadow:0 3px 10px 0 #6b7fd0;
+    -webkit-box-shadow:0 3px 10px 0 #83a6f3;
+    text-shadow:0px 0px 2px #fff;
+    }
+    
+.bloco-2{
+    margin-top: 4vh;
+    text-align: center;
+    border: 2px solid;
+    border-image: var(--gradient) 1;
+    /* background-color: #564242; */
+}
+
+.bloco-2 div{
+    margin-top: 2vh;
+}
+
+.titulo-bloco-2{
+    color: #9cdbf0;
+    font-size: 3rem;
+
+}
+
+.suporte{
+    background-color: #6b7fd0;
+    display: block;
+    width: 50%;
+    text-align: justify;
+    padding: 4vh;
+    border-radius: 10px;
+    
+}
+
+.suporte h1{
+    color: #9cdbf0;
+}
+
+.suporte a{
+    color: #e1d881;
+    font-size: 1.5rem;
+}
 
 
+
+.velocidade{
+
+    background-color: #6b7fd0;
+    display: block;
+    width: 50%;
+    text-align: justify;
+    padding: 4vh;
+    border-radius: 10px;
+} 
+
+.velocidade h1{
+    color: #9cdbf0;
+}
+
+.velocidade a{
+    color: #e1d881;
+    font-size: 1.5rem;
+}
+
+.preco{
+
+    background-color: #6b7fd0;
+    display: block;
+    width: 50%;
+    text-align: justify;
+    padding: 4vh;
+    border-radius: 10px;
+    border-bottom: 4vh;
+} 
+
+.preco h1{
+    color: #9cdbf0;
+}
+
+.preco a{
+    color: #e1d881;
+    font-size: 1.5rem;
+}
 
 
 .entre-cont{
-    background-color: #fefdfd;
+    background-color:var(--gradient);
     display: flex;
     margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
 .email{
     
- 
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 
 }
 
@@ -323,16 +438,24 @@ text-shadow:0px 0px 5px #fff;
     }
 
     .objetivo{
-        
+       
         margin-left: 4vw;
         padding: 0%;
+
     }
+
+ 
 
      
     .inicio{
         
         margin-left: 4vw;
-    } 
+    }  
+    
+    .inicio :first-child{
+        
+        font-size: 1.3rem;
+    }
    
     .inicio h2{
         font-size: 1rem;
@@ -350,15 +473,60 @@ text-shadow:0px 0px 5px #fff;
         font-size: 1rem;
     } 
 
+    .whatss-INICIO{
+        
+        margin-top: 6vh;
+    }
+  
 
- 
+    .whatss-INICIO a{
+        
+        font-size: 1rem;
+        padding-left: 22vw;
+        padding-right: 22vw;
+    }
 
     .heading img{
         max-width:96%;
-        margin-top: 3vh;
+        margin-top: 6vh;
         margin-left: 4vw;
      
         
+    }
+
+    .titulo-bloco-2{
+        font-size: 1.3rem;
+    }
+
+   
+    .suporte, .velocidade, .preco{
+
+        width: 90%; 
+    }
+
+ 
+    .suporte h1{
+        font-size: var(--font-para-bloco2-h1);
+    }
+
+    .suporte a{
+        font-size: var(--font-para-bloco2-a);
+    }
+
+    .velocidade h1{
+        font-size: var(--font-para-bloco2-h1);
+    }
+
+    .velocidade a{
+        font-size: var(--font-para-bloco2-a);
+    }
+
+    .preco h1{
+        font-size: var(--font-para-bloco2-h1);
+    }
+
+    .preco a{
+        font-size: var(--font-para-bloco2-a);
     }
 
 
