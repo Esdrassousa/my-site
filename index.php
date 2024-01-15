@@ -53,17 +53,20 @@
                 <a href="https://wa.me/5585981764642">FALE CONOSCO</a>
             </div>
 
-
+            
         </div>
 
-        <img src="img/projetos.png">
+        
+        <div class="imagem-projeto">
+            <img src="img/projetos.png">
+        </div>
 
     </div>
 
     <div class="bloco-2">
 
-        
-        <h1  class="titulo-bloco-2">NOSSAS VANTAGENS</h1>
+
+        <h1 class="titulo-bloco-2">NOSSAS VANTAGENS</h1>
 
         <div class="suporte">
             <h1>SUPORTE COM ESPECIALISTA</h1>
@@ -72,7 +75,8 @@
 
         <div class="velocidade">
             <h1>VELOCIDADE NA APROVAÇÃO DE PROJETOS</h1>
-            <a>Nossa equipe presta serviço para todos os estados, temos uma vasta experiencia, e temos a equipe mais rapida a ingressar o seu projeto na conssecionaria</a>
+            <a>Nossa equipe presta serviço para todos os estados, temos uma vasta experiencia, e temos a equipe mais
+                rapida a ingressar o seu projeto na conssecionaria</a>
         </div>
 
         <div class="preco">
