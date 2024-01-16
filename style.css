@@ -480,14 +480,21 @@ text-shadow:0px 0px 5px #fff;
 
 
     .whatss-INICIO{
-    
-        margin-top: 6vh;
+
+        display: flex;
+        margin-top: 1vh;
+        /* background-color: #333; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        align-items: center;
+        justify-content: center;
+        padding: 0%;
 
     }
     
      
     .whatss-INICIO a{
-        
+        margin-top: 1vh;
         font-size: 1rem;
         padding-left: 22.5vw;
         padding-right: 22.5vw;
@@ -495,7 +502,7 @@ text-shadow:0px 0px 5px #fff;
 
     .heading img{
         max-width:96%;
-        margin-top: 6vh;
+        margin-top: 3vh;
         margin-left: 4vw;
        
         

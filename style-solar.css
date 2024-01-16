@@ -1,5 +1,20 @@
 
 
+:root{
+    --gradient: linear-gradient(
+        to top left,
+        rgb(170, 211, 233),
+        rgb(64, 143, 183)
+    );
+
+    --font-para-bloco2-h1:(
+        font-size: 1rem
+    );
+
+    --font-para-bloco2-a:(
+        font-size: 0.6rem
+    )
+}
 
 *{
 
@@ -10,7 +25,10 @@
 }
 
 body{
-    background-color:   rgb(139, 193, 221);
+    background-image: var(--gradient);
+    /* background-image: url(img/background.jpg); */
+    opacity: 110%;
+
 }
 
 ul{
@@ -129,7 +147,7 @@ text-shadow:0px 0px 5px #fff;
 }
 
 .entre-cont{
-    background-color: #fefdfd;
+    /* background-color: #fefdfd; */
     display: flex;
     margin-top: 10vh;
 }
