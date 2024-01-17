@@ -88,63 +88,6 @@ text-shadow:0px 0px 5px #fff;
 
 
 
-
-
-
-
-.entre-cont{
-    display: flex;
-    padding: 4vh;
-}
-
-
-.email a{
-
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
-    font-size: 1rem;
-    
-}
-
-.email img{
-    max-width:8vh;
-    max-height:8vh;
-    margin-left: 6vw;
-} 
-
-.whatss a{
-
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
-    font-size: 1rem;
-    
-}
-
-.whatss img{
-    max-width:8vh;
-    max-height:8vh;
-    margin-left: 0.5vw;
-}
-
-
-.insta a{
-
-    margin-top: 1vh;
-    display: block;
-    align-items: center;
-    font-size: 1rem;
-    
-}
-
-.insta img{
-    max-width:8vh;
-    max-height:8vh;
-    margin-left: 0.5vw;
-}
-
-
 .btn-mobile{
     display: none;
 }
@@ -153,7 +96,7 @@ text-shadow:0px 0px 5px #fff;
         display: block;
         position: absolute;
         width: 100%;
-        top: 13vh;
+        top: 50vh;
         right: 0px;
         left: 0px;
         background: #564242;
@@ -235,38 +178,7 @@ text-shadow:0px 0px 5px #fff;
 
     }
 
-    .heading img{
-        max-width:96%;
-        margin-top: 3vh;
-        
-    }
-
-
-    .entre-cont{
-        flex-direction: column; 
-        align-items: center; 
-        max-width:100%;
-
-    }
-
-    .entre-cont div{
-        margin-top: 4vh;
-    }
-
-
-    .email img{
-        
-        margin-left: 12vw;
-    } 
-
-    .whatss img{
-        
-        margin-left: 1.5vw;
-    } 
-    .insta img{
-        
-        margin-left: 1.5vw;
-    } 
+   
 
 
 

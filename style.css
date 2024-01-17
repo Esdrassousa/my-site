@@ -370,15 +370,22 @@ text-shadow:0px 0px 5px #fff;
     }
 
     #navegacao.active .menu{
- 
-        height: 30vh;
+        
+        height: 25vh;
         visibility: visible;
         overflow-y: auto;
+        position: absolute;
   
+    }
+
+    .menu li:first-child{
+        margin-top: 2vh;
+        
     }
 
    .menu li{
     margin-top: 2vh;
+    text-align: center;
    }
    .menu li a{
 
