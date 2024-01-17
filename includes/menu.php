@@ -20,7 +20,7 @@
     <!-- http://localhost/dashboard/MY_SITE -->
     <!-- http://e2ssolucoes.com/ -->
 
-    <nav id="navegacao" class = "">
+    <nav id="navegacao">
 
         <button id="btn-mobile" class = "btn-mobile">MENU
 
