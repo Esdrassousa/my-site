@@ -18,7 +18,7 @@ window.addEventListener("click", (event) => {
   if (btnMobile){
 
     togleMenu()
-    btnMobile.addEventListener('click' );
+    btnMobile.addEventListener('click' , togleMenu());
     
   }
   
