@@ -10,12 +10,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-
+<!-- <script>
+    import togleMenu from main.js
+</script> -->
 <body>
 
 
     <?php
-
+    
     use function PHPSTORM_META\elementType;
 
     // echo dirname(__FILE__);
@@ -75,8 +77,8 @@
 
         <div class="velocidade">
             <h1>VELOCIDADE NA APROVAÇÃO DE PROJETOS</h1>
-            <a>Nossa equipe presta serviço para todos os estados, temos uma vasta experiência, e temos a equipe mais
-                répida a ingressar o seu projeto na concessionária</a>
+            <a>Nossa equipe presta serviços para todos os estados, temos uma vasta experiência, e temos a equipe mais
+                rápida a ingressar o seu projeto na concessionária</a>
         </div>
 
         <div class="preco">
