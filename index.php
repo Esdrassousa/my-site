@@ -10,6 +10,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9L4L9G0NFH">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9L4L9G0NFH');
+</script>
 <!-- <script>
     import togleMenu from main.js
 </script> -->
